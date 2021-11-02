@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/cadastro.css">
+    <link rel="stylesheet" href="javascript/cadastro.js">
+    <title>Cadastro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@500&display=swap" rel="stylesheet">  
+</head>
+
+<body class="body-cadastro">
+    <form>  
+        <fieldset>
+            <h1>Cadastre-se</h1>          
+            <div id="div-inputs">
+                <input type="text" class="inputs" id="nome" placeholder="Nome completo"> <br><br>   
+                <input type="email" class="inputs" id="email" placeholder="E-mail"> <br><br>    
+                <input type="tel" class="inputs" id="celular" placeholder="Celular"> <br><br>    
+                <input type="text" class="inputs" id="endereco" placeholder="Endereço">   
+                <input type="number" class="inputs" id="nr-residencia" placeholder="Nº"> <br><br>  
+                <input type="text" class="inputs" id="complemento" placeholder="Complemento"> <br><br>  
+                <input type="password" class="inputs" id="senha" placeholder="Senha"> <br><br>  
+                <input type="password" class="inputs" id="repita-senha" placeholder="Repita sua senha"> <br><br> 
+                <select name="pergunta-seguranca" class="inputs" id="pergunta-seguranca">
+                    <option value="nm-primeiro-pet">Nome do seu primeiro pet</option>    
+                    <option value="anos-primeiro-pet">Com quantos anos teve seu primeiro pet</option>    
+                    <option value="quantos-pets-teve">Quantos pets você já teve</option>    
+                    <option value="raca-ultimo-pet">Raça do seu último pet</option>    
+                    <option value="primeiro-pet">Qual foi seu primeiro pet</option>    
+                    <option value="pet-favorito">Qual seu pet favorito</option>    
+                </select> <br><br> 
+                <input type="text" class="inputs" id="resposta" placeholder="Resposta"> <br><br> 
+            </div>
+
+            <div id="div-botoes">
+                <input type="reset" class="botoes" id="btn-limpar" name="btn-limpar" value="Limpar">
+                <input type="submit" class="botoes" id="btn-enviar" name="btn-enviar" value="Enviar" onclick="verificaCampos()">
+            </div>
+        </fieldset>
+    </form>
+    <script type="text/javascript" src="js/cadastro.js"></script>
+</body>
+</html>

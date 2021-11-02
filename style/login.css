@@ -1,0 +1,40 @@
+#body-login { 
+    text-align: center;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    height: 80%;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.input {
+    width: 20rem;
+    height: 1.2rem;    
+}
+
+#div-botao{
+    margin-bottom: 11rem;
+    margin-top: 4rem;
+}
+
+#lembrardemim{
+    margin-left: -200px;
+}
+
+#esqueceu-senha{
+    margin-left: -112px;
+}
+
+#btn-entrar{
+    width: 5rem;
+    height: 2rem;
+}
+
+.button:hover {
+    background-color: rgb(197, 197, 197);
+}

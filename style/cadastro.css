@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) {
+    .body-cadastro{
+        text-align: center;
+        position: absolute;
+        width:70%;
+        left: 15%;
+        right: 15%;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .inputs{
+        width: 30rem;
+        height: 1.2rem;
+    }
+
+    #endereco{
+        width: 390px;
+    }
+    #nr-residencia{
+        width: 80px;
+    }
+    #pergunta-seguranca{
+        width: 488px;
+        height: 1.5rem;
+    }
+
+    #div-botoes{
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        margin-right: 1rem;
+    }
+
+    .botoes{
+        height: 2rem;
+        width: 5rem;
+        margin-right: 13px;
+        float: right;
+    }
+
+    .botoes:hover {
+        background-color: rgb(197, 197, 197);
+    }
+}

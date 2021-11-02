@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+      
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/login.css">
+    <script src="js/login.js"></script>
+    <title>Login</title>
+</head>
+
+<body id="body-login">
+    <form>
+        <fieldset>
+            <h1>Login</h1>
+
+            <div>
+                <form action="/action_page.php"></form>
+                <input type="email" id="fname" class="input" name="fname" placeholder="E-mail"><br><br>
+                <input type="password" id="lname" class="input" name="lname" placeholder="Senha" autocomplete="on"><br><br>
+            </div>
+    
+            <input type="checkbox" id="lembrardemim" name="lembrardemim" onclick="autocomplete(on)">
+            <label for="lembrardemim">Lembrar de mim </label>
+              
+            <p id="esqueceu-senha">Esqueceu sua senha?
+                <a href="redefinirSenha.html">Clique aqui</a>.
+            </p>
+                
+            <div id="div-botao">
+                <input id="btn-entrar" class='button' id='button' type="submit" value="Entrar" onclick="openMessage()">  
+            </div>
+                
+            <div>
+                <p id="rodape-pet">Perdeu ou encontrou um pet e quer divulgá-lo? Faça seu cadastro
+                    <a href="cadastro.html">aqui</a>.
+                </p>
+            </div>
+            
+        </fieldset>
+    </form> 
+</body>
+
+</html> 
